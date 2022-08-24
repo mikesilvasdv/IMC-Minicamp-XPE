@@ -1,0 +1,117 @@
+* {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    text-align: center;
+
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 70px;
+}
+
+.flex-container {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  
+  /* border-radius: 5px; */
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 5% ;
+  display: flex;
+  flex-direction: column;
+  min-width: 290px;
+  min-height: 500px;
+  background: rgba(20, 20, 20, 0.400);
+  padding: 50px 80px;
+  width: 30%;
+
+  /* efeito blur  */
+
+  /* border-radius: 16px; */
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgb(255, 255, 255);
+  border-style: groove;
+  user-select: none;
+ 
+  /*efeito borda  */
+  transition: box-shadow 0.5s ease-in-out , border-color 0.5s ease-in-out;
+
+}
+
+.flex-container:hover {
+
+    background-color: rgba(0, 0, 0, 0.280);
+
+    color: #000;
+    box-shadow: 0 0 5px #fafafa,
+                0 0 20px rgba(247, 247, 247, 0.8),
+                0 0 35px rgba(255, 255, 255, 0.7),
+                0 0 50px rgba(255, 255, 255, 0.6);
+    border-color: #fff;
+
+}
+
+#input-height, #input-weight {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;    
+}
+
+strong > em {
+    color: rgb(30, 241, 26);
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.185);
+    border-style: none;
+    color: fff;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+button {
+    outline: 0;
+    position: relative;
+    display: inline-block;
+    padding: 8px 40px;
+    margin: 30px auto;
+    font-size: 17px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #ffffff9f;
+    background: #ffffff00;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    max-width: 100%;
+}
+
+button:hover {
+
+    background-color: #22ff0049;
+    box-shadow: 0 0 5px #ffffff,
+
+                0 0 20px rgba(255, 255, 255, 0.6),
+
+                0 0 35px rgba(255, 255, 255, 0.5),
+
+                0 0 50px rgba(255, 255, 255, 0.4);
+
+    border-color: #fff;
+
+}
+

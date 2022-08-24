@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IMC v2</title>
+
+</head>
+
+<body>
+
+    <main class="flex-container">
+
+        <h1>IMC v2</h1>
+
+        <label for="input-weight"> Digite o peso (kg):</label>
+        <br>
+        <input type="number" id="input-weight" value="68" step="0.1">
+        <br><br>
+        <label for="input-height"> Digite a altura (m):</label>
+        <br>
+        <input type="number" id="input-height" value="1.83" step="0.01">
+        <br><br>
+        <button id="button-calculate-imc">Calcular IMC</button>
+
+
+        <p> O IMC desses dados é <strong><em id="imc-result"></em></strong></p>
+        <p> Com este peso e altura você está na faixa: <strong><em id="result"></em></strong></p>
+    </main>
+    
+
+   
+
+<script defer src="script.js"></script>
+
+</body>
+
+</html>
